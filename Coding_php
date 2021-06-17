@@ -55,7 +55,7 @@ if( isset($_POST["cari"]) )
 			<td><img src="img/<?= $row["gambar"]; ?>" width="60"></td>
 			<td><?= $row["nama"]; ?></td>
 			<td><?= $row["nim"]; ?></td>
-			<td><?= $row["email"]; ?></td>
+			<td><?= $row["alamat"]; ?></td>
 		</tr>
 		<?php $i++; ?>
 		<?php endforeach; ?>
