@@ -56,6 +56,8 @@ if( isset($_POST["cari"]) )
 			<td><?= $row["nama"]; ?></td>
 			<td><?= $row["nim"]; ?></td>
 			<td><?= $row["jurusan"]; ?></td>
+			<td><?= $row["Email"]; ?></td>
+			
 		</tr>
 		<?php $i++; ?>
 		<?php endforeach; ?>
